@@ -8,6 +8,7 @@ module.exports = {
       },
       backgroundImage: {
         "welcome-bg": "linear-gradient(#ffedd9,#fff)",
+        "search-bg": "url('/public/images/search-bg.jpg')",
       },
     },
     fontFamily: {

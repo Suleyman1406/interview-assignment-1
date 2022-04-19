@@ -1,3 +1,3 @@
 export const WELCOME_SCREEN = "/";
 export const HOME_SCREEN = "/home";
-export const STARED_REPOS_SCREEN = "/staredRepos";
+export const STARRED_REPOS_SCREEN = "/starredRepos";

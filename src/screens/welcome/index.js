@@ -34,7 +34,7 @@ const profiles = [
 
 const Welcome = () => {
   return (
-    <div className="h-[calc(100vh-80px)] bg-welcome-bg flex items-center justify-center p-5 pt-10 overflow-hidden">
+    <div className="min-h-[calc(100vh-144px)] md:min-h-[calc(100vh-80px)] bg-welcome-bg flex items-center justify-center p-5 pt-10 overflow-hidden">
       <div className="text-3xl">
         <h1 className="font-semibold">
           Welcome to{" "}
