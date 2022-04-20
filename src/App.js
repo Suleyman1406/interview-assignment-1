@@ -9,8 +9,9 @@ import { HomeScreen, StaredReposScreen, WelcomeScreen } from "./screens";
 
 function App() {
   return (
+    /* A router that is used to navigate between different screens. */
     <Router>
-      <div className="font-sans">
+      <div className="font-sans ">
         <Navbar />
         <Routes>
           <Route exact path={HOME_SCREEN} element={<HomeScreen />} />

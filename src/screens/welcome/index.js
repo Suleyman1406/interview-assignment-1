@@ -34,8 +34,13 @@ const profiles = [
 
 const Welcome = () => {
   return (
-    <div className="min-h-[calc(100vh-144px)] md:min-h-[calc(100vh-80px)] bg-welcome-bg flex items-center justify-center p-5 pt-10 overflow-hidden">
-      <div className="text-3xl">
+    <div className="min-h-[calc(100vh-144px)] md:min-h-[calc(100vh-80px)] bg-welcome-bg flex items-center flex-col p-1 sm:p-5  overflow-hidden">
+      <img
+        src="./images/dog.png"
+        alt=""
+        className="duration-500 w-[70%] sm:w-[55%] md:w-[45%] lg:w-[35%] xl:w-[25%]"
+      />
+      <div className="text-xl sm:text-3xl">
         <h1 className="font-semibold">
           Welcome to{" "}
           <span className="font-bold text-primary">
@@ -43,23 +48,22 @@ const Welcome = () => {
           </span>{" "}
           Front-end Development Intern Assesment
         </h1>
-        <div className="text-xl mt-10">
+        <div className="text-base sm:text-xl mt-10">
           <p className="tracking-wider">
             Hello, my name is Suleyman. I'm{" "}
-            <span className="text-primary font-bold italic">Developer</span>.
+            <span className="text-primary font-bold italic">Developer.</span>
             <br />
             Actually, I'm{" "}
             <span className="text-secondary font-bold italic">
-              Front-end Developer
+              Front-end Developer.
             </span>
-            .
           </p>
           <div className="flex flex-row justify-center mt-6">
             {profiles.map(({ icon: Icon, url }) => (
               <a
                 href={url}
                 target={"_blank"}
-                className="m-2 px-2 py-2  justify-center rounded-full bg-primary duration-200 hover:-translate-y-1 hover:shadow-md hover:shadow-primary"
+                className="m-1 sm:m-2 p-1 sm:p-2   justify-center rounded-full bg-primary duration-200 hover:-translate-y-1 hover:shadow-md hover:shadow-primary"
                 rel="noreferrer"
               >
                 <Icon className=" text-3xl text-white mx-auto" />
