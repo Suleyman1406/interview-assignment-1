@@ -43,7 +43,7 @@ const Profile = () => {
         />
       )}
       {profileData && (
-        <div className=" mx-auto mt-10 py-5 px-5 shadow-secondary shadow   rounded-xl bg-gray-100">
+        <div className=" mx-auto mt-10 py-5 px-5 shadow-secondary shadow animate-clipPath  rounded-xl bg-gray-100">
           <div className="w-32 h-32 mx-auto sm:mx-0  rounded-full sm:float-left  shadow-lg shadow-primary">
             <img
               src={profileData.avatar_url}
